@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sabd="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context = ".Listik">
+    <item
+        fontPath="fonts/Roboto-Medium.ttf"
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        android:onClick="gogo"
+        app:showAsAction="never"
+        tools:ignore="MissingPrefix"/>
+
+    <item
+        fontPath="fonts/Roboto-Medium.ttf"
+        android:id="@+id/stats"
+        android:orderInCategory="100"
+        android:title="@string/action_cat_male"
+        android:onClick="letsStat"
+        app:showAsAction = "never"
+        tools:ignore="MissingPrefix"
+        />
+    <item
+        fontPath="fonts/Roboto-Medium.ttf"
+        android:id="@+id/exp"
+        android:orderInCategory="100"
+        android:title="@string/action_cat_female"
+        android:onClick="expMnen"
+        app:showAsAction = "never"
+        tools:ignore="MissingPrefix"
+        />
+    <item
+        fontPath="fonts/Roboto-Medium.ttf"
+        android:id="@+id/about"
+        android:orderInCategory="100"
+        android:title="@string/action_kitten"
+        android:onClick="onClickAboutCenter"
+        app:showAsAction = "never"
+        tools:ignore="MissingPrefix"
+        />
+    <item
+        fontPath="fonts/Roboto-Medium.ttf"
+        android:id="@+id/proj"
+        android:orderInCategory="100"
+        android:title="@string/projects"
+        app:showAsAction = "never"
+        tools:ignore="MissingPrefix"
+        android:onClick="ourProjects"
+        />
+    <item
+        fontPath="fonts/Roboto-Medium.ttf"
+        android:id="@+id/cont"
+        android:orderInCategory="100"
+        android:title="@string/contacts"
+        android:onClick="contactUs"
+        app:showAsAction = "never"
+        tools:ignore="MissingPrefix"
+        />
+
+</menu>

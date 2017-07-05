@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Черный Куб</string>
+
+    <string name="dummy_button">Выйти из приложения</string>
+    <string name="dummy_content"></string>
+    <string name="gogo"></string>
+
+    <string name="action_settings">Аналитика</string>
+    <string name="action_cat_male">Статистика</string>
+    <string name="action_cat_female">Экспертное мнение</string>
+    <string name="action_kitten">О центре</string>
+    <string name="projects">Проекты</string>
+    <string name="experts">Эксперты</string>
+    <string name="partners">Партнеры</string>
+    <string name="contacts">Контакты</string>
+
+
+</resources>

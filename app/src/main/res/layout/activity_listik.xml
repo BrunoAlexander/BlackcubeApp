@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dns.myapplication.Listik">
+
+
+
+    <ListView
+        fontPath="fonts/Roboto-Light.ttf"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="100dp"
+        android:id="@+id/list23"
+        android:divider="@color/black_overlay"
+        android:dividerHeight="1sp"
+        android:layout_alignParentTop="false"
+        tools:ignore="MissingPrefix">
+
+    </ListView>
+
+    <LinearLayout
+        android:layout_height="100dp"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:background="#CBEFFF"
+        >
+        <Button
+            fontPath="fonts/Roboto-Medium.ttf"
+            android:text="Цитата дня"
+            android:background="#CBEFFF"
+            android:layout_width="130dp"
+            android:layout_height="fill_parent"
+            android:onClick="clickThat"
+            tools:ignore="MissingPrefix" />
+        <Button
+            fontPath="fonts/Roboto-Medium.ttf"
+            android:text="День \n в истории"
+            android:background="#CBEFFF"
+            android:layout_width="120dp"
+            android:onClick="onClickHistory"
+            android:layout_height="fill_parent"
+            tools:ignore="MissingPrefix" />
+        <Button
+            fontPath="fonts/Roboto-Medium.ttf"
+            android:text="Цифра дня"
+            android:background="#CBEFFF"
+            android:layout_width="130dp"
+            android:onClick="getCifra"
+            android:layout_height="fill_parent"
+            tools:ignore="MissingPrefix" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:drawable/screen_background_dark_transparent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/primary_text_dark_nodisable"
+        android:text="Цифра дня"
+        android:layout_gravity="center"
+        android:id="@+id/textCifra"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="180dp"
+        android:id="@+id/imageNumber"
+        android:src="@drawable/logo"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:textColor="@android:color/primary_text_dark_nodisable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:text="255 миллионов было подрачено на здравоохранение в 2016-м году"
+        android:id="@+id/Cifratext"
+        android:layout_below="@+id/imageView234"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:textColor="@android:color/primary_text_dark_nodisable"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:text="Минздрав РФ"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textSource"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp" />>
+
+</LinearLayout>

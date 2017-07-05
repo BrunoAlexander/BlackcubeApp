@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dns.blackcub">
+
+    <uses-permission android:name="android.permision.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity23">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Listik" />
+        <activity
+            android:name=".Analytics"
+            android:label="Аналитика" />
+        <activity
+            android:name=".Statistics"
+            android:label="Статистика" />
+        <activity
+            android:name=".ExpertMnenie"
+            android:label="Экспертное мнение" />
+        <activity
+            android:name=".Projects"
+            android:label="Проекты" />
+        <activity
+            android:name=".about_center"
+            android:label="О центре" />
+        <activity
+            android:name=".Kontakts"
+            android:label="Контакты" />
+        <activity android:name=".send_mail" />
+        <activity android:name=".Shlak" />
+        <activity android:name=".LoadedPage" />
+        <activity android:name=".checkOfImage" />
+        <activity android:name=".Quote" />
+        <activity android:name=".CifraDay" />
+        <activity android:name=".dayInHistory"></activity>
+    </application>
+
+</manifest>
